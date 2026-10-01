@@ -13,16 +13,17 @@
     // TODO: opcion, a, b, resultado y simbolo.
     //       ¿De qué tipo es cada una? Revisa la sección 2 de tu README.
     //       ¿Con qué valor empieza un char?
-    int main() {
+  int main() {
+    // Variables (siempre inicializadas)
     int opcion = 0;
-double a = 0.0;
-double b = 0.0;
-double resultado = 0.0;
-char simbolo = ' ';
+    double a = 0.0;
+    double b = 0.0;
+    double resultado = 0.0;
+    char simbolo = ' ';
 
     // Pasos 1 y 2: título y menú
     std::cout << "Calculadora basica\n";
-     std::cout << "1) Suma\n2) Resta\n3) Division\n4) Multiplicacion\n"; 
+    std::cout << "1) Suma\n2) Resta\n3) Multiplicacion\n4) Division\n";
     // TODO
 
     // Paso 3: leer la opción con leerEntero y repetir si no está entre 1 y 4
@@ -33,12 +34,6 @@ char simbolo = ' ';
         std::cout << "Opcion no valida, elige un numero del 1 al 4\n";
     }
 } while (opcion < 1 || opcion > 4);
-     
-     
-    {
-        /* code */
-    }
-    
 
     // Pasos 4 y 5: leer los dos números con leerDecimal
     // TODO
