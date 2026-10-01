@@ -6,7 +6,7 @@
      Si haces un reto opcional, agrega tus pasos nuevos al final, en la sección "Cambios para el reto". -->
 
 ``` text
-1. MOSTRAR "Calculadora basica"
+1. MOSTRAR "Calculadora basica"std::cout << "Calculadora basica\n";
 2. MOSTRAR el menu: 1) Suma  2) Resta  3) Multiplicacion  4) Division
 3. REPETIR
       opcion ← leerEntero("Elige una opcion (1-4): ")
